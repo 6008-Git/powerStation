@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>供电所大屏</title>
+    <script type="text/javascript" src="./js/echarts.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/powerStation.css" />
+    <link rel="stylesheet" type="text/css" href="./css/transparent.css" >
+    <!--layui.css-->
+    <link href="./layui/css/layui.css" rel="stylesheet">
+
+</head>
+<body>
+<!--供电所大屏 add by lk 2022/08/18-->
+<div class="viewport">
+    <!--文字图标到顶部间隔 -->
+    <div class="topImg1 flex-row justify-between">
+    </div>
+    <!--顶部6个文字图标-->
+    <div class="topSixImg flex-row">
+        <img class="sixImg1" src="img/pvOnlineMonitorNormal.png" alt="图片加载失败">
+        <span class="sixImgIterval">|</span>
+        <img class="sixImg2" src="img/customerOnlineWarnSelect.png" alt="图片加载失败">
+        <span class="sixImgIterval">|</span>
+        <img class="sixImg3" src="img/equipHidDangerTreatNormal.png" alt="图片加载失败">
+        <!--中间间隔-->
+        <span class="centerWord"></span>
+        <img class="sixImg4" src="img/antiStealManageNormal.png" alt="图片加载失败">
+        <span class="sixImgIterval">|</span>
+        <img class="sixImg5" src="img/abnormalAnalyLineLossNormal.png" alt="图片加载失败">
+        <span class="sixImgIterval">|</span>
+        <img class="sixImg6" src="img/EmergeRepairMaterialManageNormal.png" alt="图片加载失败">
+    </div>
+    <!--左侧部分-->
+    <div class="colunmleft flex-col">
+        <!--窃电模型框-->
+        <div class="stealElec flex-col justify-between">
+            <!--内容框-->
+            <div class="stealElecInner">
+                <!--测试填充内容-->
+                <div id="stealElecModelShow"></div>
+            </div>
+        </div>
+        <!--模型因素框-->
+        <div class="modelFacter flex-col justify-between">
+            <!--内容框-->
+            <div class="modelFacterInner">
+                <!--填充内容-->
+                <div id="modelFacterShow"></div>
+            </div>
+        </div>
+    </div>
+    <!--中间部分-->
+    <div class="colunmcenter flex-col">
+        <!--地图框-->
+        <div class="map flex-col justify-between">
+            <!--内容框-->
+            <div class="mapInner">
+                <!--测试填充内容-->
+                <div id="jiNingMap"></div>
+            </div>
+        </div>
+        <!--疑似窃电用户明细框-->
+        <div class="userDetails flex-col justify-between">
+            <!--内容框-->
+            <div class="userDetailsInner">
+                <!--填充内容--><!--此处为表格数据-->
+                <div id="userDetailsTable">
+                    <!--此处的table没有大小，仅为标识-->
+                    <div class="transparentDataTable">
+                        <table id="table" ></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--右侧部分-->
+    <div class="colunmright flex-col">
+        <!--行业分布框-->
+        <div class="industry flex-col justify-between">
+            <!--内容框-->
+            <div class="industryInner">
+                <!--填充内容-->
+                <div id="industryShow"></div>
+            </div>
+        </div>
+        <!--城乡分布-->
+        <div class="urban flex-col justify-between">
+            <!--内容框-->
+            <div class="urbanInner">
+                <!--填充内容-->
+                <div id="urbanShow"></div>
+            </div>
+        </div>
+        <!--用电类别分布-->
+        <div class="useElec flex-col justify-between">
+            <!--内容框-->
+            <div class="useElecInner">
+                <!--填充内容-->
+                <div id="useElecShow"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./layui/layui.js"></script>
+<script type="text/javascript" src="./js/layui_table.js"></script>
+<script type="text/javascript" src="./js/powerStation.js"></script>
+<!--layui.js-->
+</body>
+</html>

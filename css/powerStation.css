@@ -1,0 +1,365 @@
+/*add by lk  2022/08/10*/
+
+.viewport {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background:
+        url(../img/background.jpg)
+        100% no-repeat;
+    background-color: rgba(4, 12, 41, 1);
+    border: 1px solid rgba(98, 162, 205, 1);
+    background-size: 1920px 1080px;
+    z-index: 5;
+}
+
+/*图片到顶部间隔*/
+.topImg1 {
+    width: 916px;
+    height: 7px;
+    margin: 24px 0 0 498px;
+}
+/*六个图形按钮*/
+.topSixImg {
+    width: 1643px;
+    height: 41px;
+    margin: 2px 0 901px 136px;
+}
+.sixImgIterval {
+    background-image: linear-gradient(
+            180deg,
+            rgba(57, 217, 255, 1) 0,
+            rgba(57, 217, 255, 1) 34.912109%,
+            rgba(199, 250, 249, 1) 100%,
+            rgba(199, 250, 249, 1) 100%
+    );
+    width: 2px;
+    height: 22px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-family: PingFang-SC-Regular, serif;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 22px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(50, 220, 243);
+    display: block;
+    margin: 16px 0 0 23px;
+}
+.sixImg1 {
+    background-image: linear-gradient(
+            180deg,
+            rgba(57, 217, 255, 1) 0,
+            rgba(57, 217, 255, 1) 34.912109%,
+            rgba(199, 250, 249, 1) 100%,
+            rgba(199, 250, 249, 1) 100%
+    );
+    width: 128px;
+    height: 21px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-family: PingFang-SC-Regular;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: 17px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+.sixImg2 {
+    background-image: linear-gradient(
+            180deg,
+            rgba(57, 217, 255, 1) 0,
+            rgba(57, 217, 255, 1) 34.912109%,
+            rgba(199, 250, 249, 1) 100%,
+            rgba(199, 250, 249, 1) 100%
+    );
+    width: 129px;
+    height: 21px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-family: PingFang-SC-Regular;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 22px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    margin: 17px 0 0 22px;
+}
+.sixImg3 {
+    background-image: linear-gradient(
+            180deg,
+            rgba(57, 217, 255, 1) 0,
+            rgba(57, 217, 255, 1) 34.912109%,
+            rgba(199, 250, 249, 1) 100%,
+            rgba(199, 250, 249, 1) 100%
+    );
+    width: 129px;
+    height: 22px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-family: PingFang-SC-Regular;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 22px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    margin: 16px 0 0 22px;
+}
+.centerWord {
+    background-image: linear-gradient(
+            180deg,
+            rgba(181, 181, 181, 1) 0,
+            rgba(181, 181, 181, 1) 0,
+            rgba(181, 181, 181, 1) 50%,
+            rgba(255, 255, 255, 1) 100%
+    );
+    width: 449px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 44px;
+    font-family: Alibaba-PuHuiTi-M, serif;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 44px;
+    margin-left: 114px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+.sixImg4 {
+    background-image: linear-gradient(
+            180deg,
+            rgba(255, 220, 0, 1) 0,
+            rgba(255, 220, 0, 1) 34.912109%,
+            rgba(255, 251, 219, 1) 100%,
+            rgba(255, 251, 219, 1) 100%
+    );
+    width: 115px;
+    height: 21px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-family: PingFang-SC-Regular, serif;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 22px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    margin: 16px 0 0 114px;
+}
+.sixImg5 {
+    background-image: linear-gradient(
+            180deg,
+            rgba(57, 217, 255, 1) 0,
+            rgba(57, 217, 255, 1) 34.912109%,
+            rgba(199, 250, 249, 1) 100%,
+            rgba(199, 250, 249, 1) 100%
+    );
+    width: 129px;
+    height: 21px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-family: PingFang-SC-Regular;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 22px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    margin: 17px 0 0 27px;
+}
+.sixImg6 {
+    background-image: linear-gradient(
+            180deg,
+            rgba(57, 217, 255, 1) 0,
+            rgba(57, 217, 255, 1) 34.912109%,
+            rgba(199, 250, 249, 1) 100%,
+            rgba(199, 250, 249, 1) 100%
+    );
+    width: 129px;
+    height: 21px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-family: PingFang-SC-Regular;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 22px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    margin: 17px 0 0 28px;
+}
+
+
+/*左侧部分*/
+.colunmleft {
+    z-index: 7;
+    height: 975px;
+    width: 470px;
+    position: absolute;
+    left: 25px;
+    top: 79px;
+}
+/*窃电模型*/
+.stealElec {
+    width: 446px;
+    height: 441px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.stealElecInner{
+    width: 420px;
+    height: 420px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+#stealElecModelShow{
+    width: 380px;
+    height: 380px;
+}
+
+
+/*模型因素*/
+.modelFacter {
+    width: 440px;
+    height: 460px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.modelFacterInner{
+    width: 446px;
+    height: 507px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#modelFacterShow{
+    width: 420px;
+    height: 480px;
+}
+
+/*中间部分*/
+.colunmcenter {
+    z-index: 7;
+    height: 975px;
+    width: 880px;
+    position: absolute;
+    left: 520px;
+    top: 79px;
+}
+/*地图*/
+.map {
+    width: 880px;
+    height: 700px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.mapInner{
+    width: 880px;
+    height: 700px;
+    /*margin: 67px 0 0 45px;*/
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#jiNingMap{
+    width: 880px;
+    height: 700px;
+}
+
+/*因中间区域为总的一块，故上下不可重合，分开中间的colnumcenter即重合*/
+/*疑似窃电用户信息*/
+.userDetails {
+    width: 880px;
+    height: 265px;
+    margin-top: 0;
+    margin-left: 0;
+}
+/*除了最外层的div块，内层还有必要吗？*/
+.userDetailsInner{
+    width: 880px;
+    height: 265px;
+    margin-top: 0;
+    margin-left: 0;
+}
+#userDetailsTable{
+    margin-top: 20px;
+    width: 870px;
+    height: 265px;
+}
+
+/*右侧部分*/
+.colunmright {
+    z-index: 7;
+    height: 975px;
+    width: 470px;
+    position: absolute;
+    right: 25px;
+    top: 79px;
+}
+/*行业分布*/
+.industry {
+    width: 446px;
+    height: 326px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.industryInner{
+    width: 446px;
+    height: 326px;
+    /*margin: 67px 0 0 45px;*/
+    margin-top: 27px;
+    margin-left: 15px;
+}
+
+#industryShow{
+    width: 446px;
+    height: 326px;
+}
+/*城乡*/
+.urban {
+    width: 446px;
+    height: 311px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.urbanInner{
+    width: 420px;
+    height: 315px;
+    /*margin: 67px 0 0 45px;*/
+    margin-top: 65px;
+    margin-left: 5px;
+}
+#urbanShow{
+    width: 420px;
+    height: 315px;
+}
+/*用电*/
+.useElec {
+    width: 446px;
+    height: 261px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.useElecInner{
+    width: 420px;
+    height: 250px;
+    /*margin: 67px 0 0 45px;*/
+    /*margin依据上一个div*/
+    margin-top: 65px;
+    margin-left: 5px;
+}
+#useElecShow{
+    width: 420px;
+    height: 250px;
+}
